@@ -1,0 +1,276 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header {
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+#header .beijing {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/tupian.png);
+    background-size: 100% 150%
+}
+
+#time {
+    color: rgb(253, 253, 253);
+    text-align: right;
+}
+
+#header .beijing .wenzi {
+    height: 50px;
+    text-align: center;
+    margin-top: 120px;
+}
+
+#shuju {
+    width: 90%;
+    height: 120px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#shuju .yi {
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+
+#shuju .yi .tu1 {
+    width: 50%;
+    height: 100%;
+    background-image: url(../image/zxh001.png);
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+#shuju .yi .tu1 p {
+    color: rgb(252, 250, 250);
+    font-size: 5px;
+    font-weight: 600;
+
+}
+
+#shuju .yi .tu1 span {
+    color: rgb(60, 171, 235);
+    font-size: 35px;
+
+
+}
+
+#shuju .yi .shu1 {
+    width: 50%;
+    height: 100%;
+}
+
+#shuju .yi .shu1 p {
+    color: rgb(60, 171, 235);
+    font-size: 10px;
+}
+
+#shuju .yi .shu1 span {
+    color: rgb(234, 200, 95);
+    font-size: 20px;
+}
+
+#shuju .er {
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+
+#shuju .er .tu2 {
+    width: 50%;
+    height: 100%;
+    background-image: url(../image/zxh002.png);
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+#shuju .er .tu2 p {
+    color: rgb(252, 250, 250);
+    font-size: 5px;
+    font-weight: 600;
+
+}
+
+#shuju .er .tu2 span {
+    color: rgb(60, 171, 235);
+    font-size: 35px;
+}
+
+#shuju .er .shu2 {
+    width: 50%;
+    height: 100%;
+}
+
+#shuju .er .shu2 p {
+    color: rgb(60, 171, 235);
+    font-size: 10px;
+}
+
+#shuju .er .shu2 span {
+    color: rgb(234, 200, 95);
+    font-size: 20px;
+}
+
+#shuju .san {
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+
+#shuju .san .tu3 {
+    width: 50%;
+    height: 100%;
+    background-image: url(../image/zxh003.png);
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+#shuju .san .tu3 p {
+    color: rgb(252, 250, 250);
+    font-size: 5px;
+    font-weight: 600;
+
+}
+
+#shuju .san .tu3 span {
+    color: rgb(60, 171, 235);
+    font-size: 35px;
+}
+
+#shuju .san .shu3 {
+    width: 50%;
+    height: 100%;
+}
+
+#shuju .san .shu3 p {
+    color: rgb(60, 171, 235);
+    font-size: 10px;
+}
+
+#shuju .san .shu3 span {
+    color: rgb(234, 200, 95);
+    font-size: 20px;
+}
+
+#shuju .si {
+    width: 20%;
+    height: 100%;
+    display: flex;
+}
+
+#shuju .si .tu4 {
+    width: 50%;
+    height: 100%;
+    background-image: url(../image/zxh004.png);
+    background-size: 100% 100%;
+    text-align: center;
+    line-height: 40px;
+}
+
+#shuju .si .tu4 p {
+    color: rgb(252, 250, 250);
+    font-size: 5px;
+    font-weight: 600;
+
+}
+
+#shuju .si .tu4 span {
+    color: rgb(60, 171, 235);
+    font-size: 35px;
+}
+
+#shuju .si .shu4 {
+    width: 50%;
+    height: 100%;
+}
+
+#shuju .si .shu4 p {
+    color: rgb(60, 171, 235);
+    font-size: 10px;
+}
+
+#shuju .si .shu4 span {
+    color: rgb(234, 200, 95);
+    font-size: 20px;
+}
+
+#jianbian {
+    margin: 0 auto;
+    width: 70%;
+    height: 5px;
+    background: linear-gradient(to right, #060606, #49cde1, #060606);
+    margin-top: 55px;
+}
+
+#biao {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+}
+
+#biao .geshi {
+    width: 90%;
+    height: 95%;
+    margin: 0 auto;
+    background-color: rebeccapurple;
+}
+
+#biao .geshi .zuo {
+    width: 70%;
+    height: 100%;
+    background-color: red;
+}
+
+#biao .geshi .zuo .biao1 {
+    width: 95%;
+    height: 300px;
+    background-color: palegreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+#biao .geshi .zuo .biao1 .lpf1 {
+    width: 60%;
+    height: 100%;
+    background-color: yellow;
+}
+
+#biao .geshi .zuo .biao1 .lpf1 .biaoti1 {
+    width: 65%;
+    height: 35px;
+    background: url(../images/back_02.png);
+    background-size: 100% 100%;
+}
+
+#biao .geshi .zuo .biao1 .lpf1 .biaoti1 p {
+    color: #49cde1;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-left: 5px;
+}
+
+#biaoge1 {
+    width: 100%;
+    height: 250px;
+    background: url(../image/active-bg.png);
+    background-size: 100% 100%;
+}
+
+#biao .geshi .zuo .biao1 .lpf2 {
+    width: 35%;
+    height: 100%;
+    background-color: blue;
+}
